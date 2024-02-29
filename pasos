@@ -1,0 +1,9 @@
+#crear ambiente virtual
+virtuealenv ~./venv 
+
+#añadir al bash para inicio automatico
+vim ~/.bashrc
+#ir a linea final con boton fin y presionar insertar
+source ~./venv/bin/activate
+#precionar ctrl+c
+:wq + Enter comandos para escribir y salir de vim conservando los cambios
