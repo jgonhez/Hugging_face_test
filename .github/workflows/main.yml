@@ -18,12 +18,12 @@ jobs:
           fetch-depth: 0
       - name : Add remote
         env:
-          HuggingFace = ${{ secrets.HUGGINGFACE}}$
+          HuggingFace : ${{ secrets.HUGGINGFACE}}$
         run:
           git remote add space https://Jgonhe2109:$HuggingFace@huggingface.co/spaces/Jgonhe2109/ci_github_test
       - name : push to hub
         env:
-         HuggingFace = ${{ secrets.HUGGINGFACE}}$
+         HuggingFace : ${{ secrets.HUGGINGFACE}}$
         run:
           git push --force https://Jgonhe2109:$HuggingFace@huggingface.co/spaces/Jgonhe2109/ci_github_test main
          
