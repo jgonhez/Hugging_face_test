@@ -25,6 +25,6 @@ jobs:
         env:
          HuggingFace = ${{ secrets.HUGGINGFACE}}$
         run:
-        git push --force https://Jgonhe2109:$HuggingFace@huggingface.co/spaces/Jgonhe2109/ci_github_test main
+          git push --force https://Jgonhe2109:$HuggingFace@huggingface.co/spaces/Jgonhe2109/ci_github_test main
          
       
