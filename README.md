@@ -1,6 +1,6 @@
 ---
 title: Demo_HG_github_actions
-emoji: sun
+emoji: 🤗
 colorFrom: purple
 colorTo: purple
 sdk: gradio
