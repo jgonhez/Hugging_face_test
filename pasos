@@ -7,3 +7,7 @@ vim ~/.bashrc
 source ~./venv/bin/activate
 #precionar ctrl+c
 :wq + Enter comandos para escribir y salir de vim conservando los cambios
+
+#en spaces se debe generar un token de acceso para agregar en acciones de github y adicionalmente en el archivo readme se
+#debe tener una estructura de declaracion de que archivo desplegar, cual sd y que version, asi como paletas de colores,
+#prestar atencion a como usar el token de acceso en la actividad de add remote y el push al repositorio de huggingface
